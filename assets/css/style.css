@@ -1,12 +1,17 @@
+/* Universal elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* HTML Body */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* Header  */
 
 header {
     padding: 20px;
@@ -23,6 +28,8 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
+/* Navigation */
 
 header nav {
     padding-top: 15px;
@@ -50,6 +57,8 @@ p {
     font-size: 16px;
 }
 
+/* Hero image */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -69,11 +78,15 @@ p {
     margin-left: 25px;
 }
 
+/* Main content */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Benefits Section */
 
 .benefits {
     margin-right: 20px;
@@ -187,6 +200,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Footer Section */
 
 footer {
     padding: 30px;
